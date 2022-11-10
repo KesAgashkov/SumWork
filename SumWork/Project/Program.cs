@@ -48,3 +48,14 @@ string [] SortFirstArr (int sort = 3)
 }
 string [] newArr = SortFirstArr ();
 
+void ShowNewArr ()
+{
+    string []test = newArr.Where(x => !string.IsNullOrEmpty(x)).ToArray();
+    System.Console.WriteLine("Отсортированный массив");
+    System.Console.WriteLine();
+    for (int i = 0; i < test.Length; i++)
+    {
+        System.Console.Write($"[ {test[i]} ]");
+    }
+}
+ShowNewArr ();
