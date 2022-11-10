@@ -12,3 +12,15 @@
 }
 string [] firstArr = CreateFirstArray();
 
+void ShowFirstArr ()
+{
+    System.Console.WriteLine("Введенный массив");
+    System.Console.WriteLine();
+  for (int i = 0; i < firstArr.Length; i++)
+    {
+        System.Console.Write($"[ {firstArr[i]} ]");
+    }
+    System.Console.WriteLine();
+    System.Console.WriteLine();
+}
+
