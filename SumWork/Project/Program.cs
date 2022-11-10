@@ -24,3 +24,27 @@ void ShowFirstArr ()
     System.Console.WriteLine();
 }
 
+ShowFirstArr ();
+
+string [] SortFirstArr (int sort = 3)
+{
+    int count = 0;
+    int i = 0;
+    string [] newArray =  new string [firstArr.Length];
+
+    while (i < firstArr.Length)
+    {
+        if (firstArr[i].Length <= sort)
+        {
+        newArray[i] = firstArr[i];
+        }
+        else
+        {
+            count++;
+        }
+        i++;
+    } 
+    return newArray;
+}
+string [] newArr = SortFirstArr ();
+
