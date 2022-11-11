@@ -28,7 +28,6 @@ ShowFirstArr ();
 
 string [] SortFirstArr (int sort = 3)
 {
-    int count = 0;
     int i = 0;
     string [] newArray =  new string [firstArr.Length];
 
@@ -37,10 +36,6 @@ string [] SortFirstArr (int sort = 3)
         if (firstArr[i].Length <= sort)
         {
         newArray[i] = firstArr[i];
-        }
-        else
-        {
-            count++;
         }
         i++;
     } 
