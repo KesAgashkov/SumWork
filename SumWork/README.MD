@@ -15,5 +15,5 @@
     4.2 Отобразить все элементы нового массива (используем цикл for)
     
  ## Блок-схема проекта
-    ![block diagram drawio](https://user-images.githubusercontent.com/112971449/201313346-88d8bbe6-7e41-4ad9-aed6-aa2b91b79926.png)
+ ![block diagram drawio](https://user-images.githubusercontent.com/112971449/201313346-88d8bbe6-7e41-4ad9-aed6-aa2b91b79926.png)
 
